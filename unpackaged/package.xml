@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+<<<<<<< HEAD
         <members>*</members>
         <name>CustomApplication</name>
     </types>
@@ -54,3 +55,259 @@
     </types>
     <version>38.0</version>
 </Package>
+=======
+        <members>TestAccountDeletion</members>
+        <members>TestDataFactory</members>
+        <members>TestRestrictContactByName</members>
+        <members>TestVerifyDate</members>
+        <members>VerifyDate</members>
+        <members>flib_SObjectSelector</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>ddcAssess__AssessmentHeader</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>ddcAssess__AssessmentHome</members>
+        <members>ddcAssess__ResultV1</members>
+        <members>ddcAssess__Results</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>AccountAddressTrigger</members>
+        <members>AccountDeletion</members>
+        <members>AccountMessage</members>
+        <members>ClosedOpportunityTrigger</members>
+        <members>RestrictContactByName</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Garage</members>
+        <members>Trailblazer</members>
+        <members>ddcAssess__Data_com_Assessment</members>
+        <members>standard__AppLauncher</members>
+        <members>standard__Chatter</members>
+        <members>standard__Community</members>
+        <members>standard__Content</members>
+        <members>standard__Insights</members>
+        <members>standard__Marketing</members>
+        <members>standard__Platform</members>
+        <members>standard__Sales</members>
+        <members>standard__Service</members>
+        <members>standard__ServiceConsole</members>
+        <members>standard__Sites</members>
+        <members>standard__Work</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>AccountCleanInfo</members>
+        <members>AccountContactRole</members>
+        <members>Activity</members>
+        <members>Asset</members>
+        <members>AssistantProgress</members>
+        <members>Campaign</members>
+        <members>CampaignMember</members>
+        <members>Campsite_Reservation__c</members>
+        <members>Campsite__c</members>
+        <members>Case</members>
+        <members>CaseContactRole</members>
+        <members>Contact</members>
+        <members>ContactCleanInfo</members>
+        <members>ContentVersion</members>
+        <members>Contract</members>
+        <members>ContractContactRole</members>
+        <members>DandBCompany</members>
+        <members>DuplicateRecordItem</members>
+        <members>DuplicateRecordSet</members>
+        <members>EmailMessage</members>
+        <members>Event</members>
+        <members>ExchangeUserMapping</members>
+        <members>FeedItem</members>
+        <members>ForecastingCategoryMapping</members>
+        <members>Idea</members>
+        <members>Lead</members>
+        <members>LeadCleanInfo</members>
+        <members>Macro</members>
+        <members>MacroAction</members>
+        <members>MacroInstruction</members>
+        <members>Opportunity</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityContactRole</members>
+        <members>OpportunityLineItem</members>
+        <members>Order</members>
+        <members>OrderItem</members>
+        <members>PartnerRole</members>
+        <members>Pricebook2</members>
+        <members>PricebookEntry</members>
+        <members>Product2</members>
+        <members>Project__c</members>
+        <members>Site</members>
+        <members>SocialPersona</members>
+        <members>Solution</members>
+        <members>StreamingChannel</members>
+        <members>Task</members>
+        <members>Trail__c</members>
+        <members>User</members>
+        <members>UserProvisioningRequest</members>
+        <members>Vehicle__c</members>
+        <members>Waypoint__c</members>
+        <members>ddcAssess__Assessment_Summary__c</members>
+        <members>ddcAssess__Entity_Assessment__c</members>
+        <members>ddcAssess__Field_Assessment__c</members>
+        <members>ddcAssess__Matched_Record__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Vehicle__c</members>
+        <members>Waypoint__c</members>
+        <members>ddcAssess__Assessment_Summary__c</members>
+        <members>ddcAssess__Data_com_Assessment</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>ddcAssess</members>
+        <members>sf_com_apps</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
+        <members>Account-Account %28Marketing%29 Layout</members>
+        <members>Account-Account %28Sales%29 Layout</members>
+        <members>Account-Account %28Support%29 Layout</members>
+        <members>Account-Account Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <members>CampaignMember-Campaign Member Page Layout</members>
+        <members>Campsite_Reservation__c-Campsite Reservation Layout</members>
+        <members>Campsite__c-Campsite Layout</members>
+        <members>Case-Case %28Marketing%29 Layout</members>
+        <members>Case-Case %28Sales%29 Layout</members>
+        <members>Case-Case %28Support%29 Layout</members>
+        <members>Case-Case Layout</members>
+        <members>CaseClose-Close Case Layout</members>
+        <members>CollaborationGroup-Group Layout</members>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>ContentVersion-Content Version Layout</members>
+        <members>Contract-Contract Layout</members>
+        <members>DandBCompany-D%26B Company Layout</members>
+        <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>EmailMessage-Email Message Layout</members>
+        <members>Event-Event Layout</members>
+        <members>FeedItem-Feed Item Layout</members>
+        <members>Global-Global Layout</members>
+        <members>Idea-Idea Layout</members>
+        <members>Lead-Lead %28Marketing%29 Layout</members>
+        <members>Lead-Lead %28Sales%29 Layout</members>
+        <members>Lead-Lead %28Support%29 Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Macro-Macro Layout</members>
+        <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+        <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+        <members>Opportunity-Opportunity %28Support%29 Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>Order-Order Layout</members>
+        <members>OrderItem-Order Product Layout</members>
+        <members>Pricebook2-Price Book Layout</members>
+        <members>PricebookEntry-Price Book Entry Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>Project__c-Project Layout</members>
+        <members>SocialPersona-Social Persona Layout</members>
+        <members>Solution-Solution Layout</members>
+        <members>Task-Task Layout</members>
+        <members>Trail__c-Trail Layout</members>
+        <members>User-User Layout</members>
+        <members>UserProvAccount-User Provisioning Account Layout</members>
+        <members>UserProvisioningLog-User Provisioning Log Layout</members>
+        <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>Vehicle__c-Vehicle Layout</members>
+        <members>Waypoint__c-Waypoint Layout</members>
+        <members>ddcAssess__Assessment_Summary__c-Clean Assessment Summary Layout</members>
+        <members>ddcAssess__Entity_Assessment__c-Entity Assessment Layout</members>
+        <members>ddcAssess__Field_Assessment__c-Field Assessment Layout</members>
+        <members>ddcAssess__Matched_Record__c-Matched Record Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>ddcAssess__AssessmentLogo</members>
+        <members>ddcAssess__Assessment_css_v1</members>
+        <members>ddcAssess__LeanModal</members>
+        <members>ddcAssess__SLDS212</members>
+        <members>ddcAssess__SLDS212PLUS</members>
+        <members>ddcAssess__assessment2_css</members>
+        <members>ddcAssess__assessment_css</members>
+        <members>ddcAssess__assessment_resources</members>
+        <members>ddcAssess__did_you_know_icon</members>
+        <members>ddcAssess__jqplotBar</members>
+        <members>ddcAssess__jqplotCategory</members>
+        <members>ddcAssess__jqplotPointLabels</members>
+        <members>ddcAssess__jquery_jqplot</members>
+        <members>ddcAssess__jquery_migrate</members>
+        <members>ddcAssess__jquery_qtip_100_js</members>
+        <members>ddcAssess__jquery_ui_base_theme</members>
+        <members>ddcAssess__jquery_ui_css</members>
+        <members>ddcAssess__logo</members>
+        <members>ddcAssess__naic_codes</members>
+        <members>ddcAssess__naics_codes</members>
+        <members>ddcAssess__pdf_icon</members>
+        <members>ddcAssess__sic_codes</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Asset</members>
+        <members>AssistantProgress</members>
+        <members>Campaign</members>
+        <members>CampaignMember</members>
+        <members>Campsite_Reservation__c</members>
+        <members>Campsite__c</members>
+        <members>Case</members>
+        <members>Contact</members>
+        <members>Contract</members>
+        <members>DandBCompany</members>
+        <members>DuplicateRecordItem</members>
+        <members>DuplicateRecordSet</members>
+        <members>EmailMessage</members>
+        <members>Event</members>
+        <members>ExchangeUserMapping</members>
+        <members>FeedItem</members>
+        <members>Idea</members>
+        <members>Lead</members>
+        <members>Macro</members>
+        <members>MacroAction</members>
+        <members>MacroInstruction</members>
+        <members>Opportunity</members>
+        <members>OpportunityLineItem</members>
+        <members>Order</members>
+        <members>OrderItem</members>
+        <members>Organization</members>
+        <members>Product2</members>
+        <members>Project__c</members>
+        <members>Site</members>
+        <members>SocialPersona</members>
+        <members>Solution</members>
+        <members>StreamingChannel</members>
+        <members>Task</members>
+        <members>Trail__c</members>
+        <members>User</members>
+        <members>UserLicense</members>
+        <members>UserProvisioningRequest</members>
+        <members>Vehicle__c</members>
+        <members>Waypoint__c</members>
+        <members>ddcAssess__Assessment_Summary__c</members>
+        <members>ddcAssess__Entity_Assessment__c</members>
+        <members>ddcAssess__Field_Assessment__c</members>
+        <members>ddcAssess__Matched_Record__c</members>
+        <name>Workflow</name>
+    </types>
+    <version>38.0</version>
+</Package>
+>>>>>>> Teste do Leo

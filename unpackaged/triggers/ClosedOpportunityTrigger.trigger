@@ -8,5 +8,9 @@ trigger ClosedOpportunityTrigger on Opportunity (after insert,after update) {
     }
     insert taskList;
 
+<<<<<<< HEAD
     //https://github.com/willianpaulop/Trailhead.git
+=======
+    //teste
+>>>>>>> Teste do Leo
 }
