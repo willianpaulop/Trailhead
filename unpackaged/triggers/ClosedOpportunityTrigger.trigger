@@ -14,5 +14,6 @@ trigger ClosedOpportunityTrigger on Opportunity (after insert,after update) {
     //teste
 
     //outro teste;
+    //teste teste teste
 
 }
